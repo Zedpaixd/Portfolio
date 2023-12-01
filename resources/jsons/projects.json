@@ -1,0 +1,360 @@
+{
+	"projects":
+	[
+		{
+			"date": 2023,
+			"type": "January -> May",
+			"title": "SISU: Immigration Assistant",
+			"description": "Fully networked card game featuring AI-based singleplayer levels, guilds and friend lists. Designed to offer immigration-related information while providing a leisure activity for all backgrounds.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "PHP", "url": "https://www.php.net" },
+				{ "name": "SQL", "url": "https://aws.amazon.com/what-is/sql/" },
+				{ "name": "Unity", "url": "https://unity.com" },
+				{ "name": "Stable Diffusion", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Finnish-Immigration-Helper",
+				"https://github.com/Zedpaixd/Finnish-Immigration-Helper",
+				"https://github.com/Zedpaixd/Finnish-Immigration-Helper"
+			],
+			"video": "resources/videos/projects/SISU.mp4",
+			"image": "resources/images/projects/SISU.jpeg",
+			"logo": "resources/images/projects/SISU_Logo.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2023,
+			"type": "January -> February",
+			"title": "Ship Venturing VR",
+			"description": "Command your own ship and set sail through serene waters while diving into a variety of activities that go beyond steering and navigation. All aboard?",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "ShaderLab", "url": "https://docs.unity3d.com/Manual/SL-Reference.html" },
+				{ "name": "Unity", "url": "https://unity.com" },
+				{ "name": "XRI", "url": "https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Ship-Venturing-VR",
+				"https://github.com/Zedpaixd/Ship-Venturing-VR",
+				"https://github.com/Zedpaixd/Ship-Venturing-VR"
+			],
+			"video": "resources/videos/projects/ShipVR.mp4",
+			"image": "resources/images/projects/ShipVR.png",
+			"logo": "resources/images/projects/ShipVR.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2023,
+			"type": "January -> March",
+			"title": "Halls Of Madness",
+			"description": "-- Awarded at ICT Showroom 2023 -- <br> Originally inspired by The Backrooms, Halls of Madness is a proof-of-concept escapism-themed horror game that utilizes intentional bugs and alternate realities.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "ShaderLab", "url": "https://docs.unity3d.com/Manual/SL-Reference.html" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Halls-of-Madness",
+				"https://github.com/Zedpaixd/Halls-of-Madness",
+				"https://github.com/Zedpaixd/Halls-of-Madness"
+			],
+			"video": "resources/videos/projects/HOM.mp4",
+			"image": "resources/images/projects/HOM.png",
+			"logo": "resources/images/projects/HOM.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "September -> November",
+			"title": "Asym",
+			"description": "Symmetry Challenge: A game where the player attempts to solve complex puzzles by breaking the symmetry. My first ever game and its purpose was so I could test how far I can optimize a game.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "ShaderLab", "url": "https://docs.unity3d.com/Manual/SL-Reference.html" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Asym",
+				"https://github.com/Zedpaixd/Asym",
+				"https://github.com/Zedpaixd/Asym"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Asym.webp",
+			"logo": "resources/images/projects/Asym.webp",
+			"categories": ["none"]
+		},
+		{
+			"date": 2023,
+			"type": "25 -> 26 March",
+			"title": "How to Piano AR",
+			"description": "Learn to play the piano, record your favourite song and play it back to your friends -- all in AR! This was a one day challenge to create an Augmented Reality app.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/How-to-piano-AR",
+				"https://github.com/Zedpaixd/How-to-piano-AR",
+				"https://github.com/Zedpaixd/How-to-piano-AR"
+			],
+			"video": "resources/videos/projects/HowToPianoAR.mp4",
+			"image": "resources/images/projects/HowToPiano.png",
+			"logo": "resources/images/projects/HowToPiano.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "September -> November",
+			"title": "Mimi",
+			"description": "Storytelling-focused platformer featuring Mimi, the colorblind rabbit and her journey of regaining her sight.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "ShaderLab", "url": "https://docs.unity3d.com/Manual/SL-Reference.html" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Mimi",
+				"https://github.com/Zedpaixd/Mimi",
+				"https://github.com/Zedpaixd/Mimi"
+			],
+			"video": "resources/videos/projects/Mimi.mp4",
+			"image": "resources/images/projects/Mimi.png",
+			"logo": "resources/images/projects/Mimi.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "November",
+			"title": "Solar System Simulator",
+			"description": "COURSEWORK - A customizable solar system featuring locally computed planet and moon orbiting and elliption.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "ShaderLab", "url": "https://docs.unity3d.com/Manual/SL-Reference.html" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Unity-Maths-and-Physics",
+				"https://github.com/Zedpaixd/Unity-Maths-and-Physics",
+				"https://github.com/Zedpaixd/Unity-Maths-and-Physics"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Planets.png",
+			"logo": "resources/images/projects/Planets.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "September -> July 2023",
+			"title": "Thesis",
+			"description": "Exploring and assessing the efficacy of Static Code Analysis: Chosen due to my interest in optimising code.",
+			"tags":
+			[
+				{ "name": "LaTeX", "url": "https://www.latex-project.org" },
+				{ "name": "SonarQube", "url": "https://www.sonarsource.com/products/sonarqube/" },
+				{ "name": "SnykCode", "url": "https://snyk.io/product/snyk-code/" },
+				{ "name": "PVS-Studio", "url": "https://pvs-studio.com/en/pvs-studio/" },
+				{ "name": "Codiga", "url": "https://www.codiga.io" },
+				{ "name": "Embold", "url": "https://embold.io" },
+				{ "name": "StyleCop", "url": "https://en.wikipedia.org/wiki/StyleCop" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Exploring-and-assessing-the-efficacy-of-Static-Code-Analysis",
+				"https://github.com/Zedpaixd/Exploring-and-assessing-the-efficacy-of-Static-Code-Analysis",
+				"https://github.com/Zedpaixd/Exploring-and-assessing-the-efficacy-of-Static-Code-Analysis"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2023,
+			"type": "September -> ?",
+			"title": "ZUtil-Lib (WIP)",
+			"description": "A C++ library providing implementations of all commonly used data structures and algorithms. WIP",
+			"tags":
+			[
+				{ "name": "C++", "url": "https://cplusplus.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/ZUtil-lib",
+				"https://github.com/Zedpaixd/ZUtil-lib",
+				"https://github.com/Zedpaixd/ZUtil-lib"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2021,
+			"type": "October-December",
+			"title": "Linux Shell",
+			"description": "Custom implementation of the Linux terminal. Provides a server and client for remote usage and supports unlimited piping and redirecting.",
+			"tags":
+			[
+				{ "name": "C", "url": "https://visualstudio.microsoft.com/vs/features/cplusplus/" },
+				{ "name": "VirtualBox", "url": "https://www.virtualbox.org" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Linux-Custom-Shell",
+				"https://github.com/Zedpaixd/Linux-Custom-Shell",
+				"https://github.com/Zedpaixd/Linux-Custom-Shell"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2021,
+			"type": "August -> January",
+			"title": "Krauss Bot",
+			"description": "Discord bot with various features whose main purpose is to provide entertainment and play music in voice chat.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org" },
+				{ "name": "FastAPI", "url": "https://fastapi.tiangolo.com" },
+				{ "name": "FFMPEG", "url": "https://ffmpeg.org" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Krauss-Bot",
+				"https://github.com/Zedpaixd/Krauss-Bot",
+				"https://github.com/Zedpaixd/Krauss-Bot"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "February -> July",
+			"title": "Squabble",
+			"description": "Recreation of Wordle on mobile. Allows customization of word length and lives with infinite replayability.",
+			"tags":
+			[
+				{ "name": "React Native", "url": "https://reactnative.dev" },
+				{ "name": "Android Studio (Emulator)", "url": "https://developer.android.com/studio" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Squabble/tree/master",
+				"https://github.com/Zedpaixd/Squabble/tree/master",
+				"https://github.com/Zedpaixd/Squabble/tree/master"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2023,
+			"type": "August->September",
+			"title": "Another Portfolio",
+			"description": "Book-themed portfolio to showcase my personality a little more.",
+			"tags":
+			[
+				{ "name": "HTML", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+				{ "name": "CSS", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+				{ "name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" }
+			],
+			"links":
+			[
+				"https://zedpaixd.github.io",
+				"https://github.com/Zedpaixd/zedpaixd.github.io",
+				"https://zedpaixd.github.io"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "September",
+			"title": "Mathematically Computed Pinball",
+			"description": "Self-explanatory coursework. Game does not make use of any predefined physics behaviour.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "ShaderLab", "url": "https://docs.unity3d.com/Manual/SL-Reference.html" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/Unity-Maths-and-Physics",
+				"https://github.com/Zedpaixd/Unity-Maths-and-Physics",
+				"https://github.com/Zedpaixd/Unity-Maths-and-Physics"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "November",
+			"title": "(DISCONTINUED) Chesspai",
+			"description": "Chess Engine able to play games consistently up until approximately 1900 ELO",
+			"tags":
+			[
+				{ "name": "C", "url": "https://visualstudio.microsoft.com/vs/features/cplusplus/" }
+			],
+			"links":
+			[
+				"#",
+				"#",
+				"#"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"date": 2022,
+			"type": "November",
+			"title": "CuDoCu",
+			"description": "- AWARDED in Capstone - <br> Full-stack online contract manager for a startup with strong security measures",
+			"tags":
+			[
+				{ "name": "React", "url": "https://react.dev" },
+				{ "name": "Django", "url": "https://www.djangoproject.com" },
+				{ "name": "RestAPI", "url": "https://restfulapi.net" },
+				{ "name": "PostgreSQL", "url": "https://www.postgresql.org" },
+				{ "name": "Azure", "url": "https://azure.microsoft.com/en-US" }
+			],
+			"links":
+			[
+				"https://github.com/Zedpaixd/CuDoCu-BE",
+				"https://github.com/Zedpaixd/CuDoCu-BE",
+				"https://github.com/Zedpaixd/CuDoCu-BE"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		}
+		
+	]
+}
