@@ -29,7 +29,7 @@
 			"date": 2023,
 			"type": "January -> February",
 			"title": "Ship Venturing VR",
-			"description": "Heavily optimization-focused virtual reality ship sailing game. Command your own ship and set sail through serene waters while diving into a variety of activities. All aboard?",
+			"description": "Heavily optimization-focused virtual reality ship sailing game. Command your own ship and set sail through serene waters while diving into a variety of other activities. All aboard?",
 			"tags":
 			[
 				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
