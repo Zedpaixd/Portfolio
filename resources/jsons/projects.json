@@ -2,6 +2,28 @@
 	"projects":
 	[
 		{
+			"date": 2024,
+			"type": "November -> April",
+			"title": "Galaxy Simulation",
+			"description": "Completely customizable simulation of the galaxy done via Compute Shaders to put less stress on the CPU. Project was inspired by an ex-classmate's work.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "Compute Shaders", "url": "https://docs.unity3d.com/Manual/class-ComputeShader.html" },
+				{ "name": "Unity", "url": "https://unity.com" }
+			],
+			"links":
+			[
+				"#",
+				"#",
+				"#"
+			],
+			"video": "resources/videos/projects/Galaxy.mp4",
+			"image": "resources/images/projects/Galaxy.jpg",
+			"logo": "resources/images/projects/Galaxy.jpg",
+			"categories": ["none"]
+		},
+		{
 			"date": 2023,
 			"type": "January -> May",
 			"title": "SISU: Immigration Assistant",
@@ -153,8 +175,8 @@
 				"https://github.com/Zedpaixd/Unity-Maths-and-Physics"
 			],
 			"video": "none",
-			"image": "resources/images/projects/Planets.png",
-			"logo": "resources/images/projects/Planets.png",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
 			"categories": ["none"]
 		},
 		{
