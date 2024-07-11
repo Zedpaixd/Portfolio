@@ -111,7 +111,7 @@
 			],
 			"video": "none",
 			"image": "resources/images/projects/Asym.webp",
-			"logo": "resources/images/projects/Asym.webp",
+			"logo": "resources/images/projects/NotAvailable.png",
 			"categories": ["none"]
 		},
 		{
@@ -132,7 +132,7 @@
 			],
 			"video": "resources/videos/projects/HowToPianoAR.mp4",
 			"image": "resources/images/projects/HowToPiano.png",
-			"logo": "resources/images/projects/HowToPiano.png",
+			"logo": "resources/images/projects/NotAvailable.png",
 			"categories": ["none"]
 		},
 		{
@@ -154,7 +154,7 @@
 			],
 			"video": "resources/videos/projects/Mimi.mp4",
 			"image": "resources/images/projects/Mimi.png",
-			"logo": "resources/images/projects/Mimi.png",
+			"logo": "resources/images/projects/NotAvailable.png",
 			"categories": ["none"]
 		},
 		{
