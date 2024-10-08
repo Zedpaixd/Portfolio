@@ -40,9 +40,9 @@ function experience_events()
 				<div class="in_animation job ${inverted ? 'inverted' : ''}">
 					<div class="job_text">
 						<div class="type">
-							<span>${job.date}</span>
-							<span>•</span>
 							<span>${job.type}</span>
+							<span>•</span>
+							<span>${job.date}</span>
 						</div>
 						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
 						<div class="text"><p>${job.description}</p></div>

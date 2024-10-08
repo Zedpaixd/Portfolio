@@ -161,6 +161,18 @@
 	margin-right: -100px;
 }
 
+.p_1
+{
+	font-family: raleway_medium;
+	text-align: center;
+	font-size: 14px;
+	color: var(--white);
+	text-decoration: none;
+	margin-bottom: 60px;
+	margin-left: 15px;
+	transition: color 0.2s ease;
+}
+
 #projects_section .inverted .project_text
 {
 	align-items: flex-end;
