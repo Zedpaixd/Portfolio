@@ -14,7 +14,7 @@ window.onload = () =>
 	header_events();
 	home_events();
 	projects_events();
-
+	experience_events();
 	in_animations();
 	videos_events();
 

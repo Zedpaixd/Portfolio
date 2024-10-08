@@ -1,0 +1,89 @@
+{
+	"experience":
+	[
+		{
+			"date": "Jan-May 2022 & Mar 2023 - Now",
+			"type": "System Programmer",
+			"title": "Zo-Lar Prest",
+			"description": "Developed Python and Bash scripts to automate tasks, enhanced system efficiency by over 200%, conducted bi-weekly system checks and implemented various security protocols.",
+			"tags":
+			[
+				{ "name": "C", "url": "https://installc.org/" },
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Bash", "url": "https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html" },
+				{ "name": "Wireshark", "url": "https://www.wireshark.org/" },
+				{ "name": "Ubuntu", "url": "https://ubuntu.com/" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/zolar.png"
+		},
+		{
+			"date": "Oct 2023 - June 2024",
+			"type": "Teaching Assitant",
+			"title": "West University of Timisoara",
+			"description": "Taught advanced OOP and Java concepts, along with Data Structures and Algorithmics. Led labs for large groups, graded assignments, and designed tailored learning materials.",
+			"tags":
+			[
+				{ "name": "Java", "url": "https://www.java.com/en/" },
+				{ "name": "C", "url": "https://installc.org/" },
+				{ "name": "C++", "url": "https://cplusplus.com/" },
+				{ "name": "SQL", "url": "https://www.mysql.com/" },
+				{ "name": "JavaFX", "url": "https://openjfx.io/" },
+				{ "name": "Algorithms", "url": "https://dl.ebooksworld.ir/books/Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.MIT.Press.9780262046305.EBooksWorld.ir.pdf" },
+				{ "name": "Data Structures", "url": "https://dl.ebooksworld.ir/books/Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.MIT.Press.9780262046305.EBooksWorld.ir.pdf" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/uvt.jpg"
+		},
+		{
+			"date": "2020 - Present",
+			"type": "Freelance",
+			"title": "Freelancing",
+			"description": "Provided academic advice to prospective applicants and assisted with interview preparation. Took commissions for programming projects, offered mentoring in cybersecurity, UNIX, programming, and software design. Consulted junior developers on career growth and technical skills.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" },
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Azure", "url": "https://azure.microsoft.com/en-us" },
+				{ "name": "Wireshark", "url": "https://www.wireshark.org/" },
+				{ "name": "(Kali) Linux", "url": "https://www.linux.org/" },
+				{ "name": "HTML/CSS/JS", "url": "https://www.w3schools.com/html/default.asp" },
+				{ "name": "Overleaf", "url": "https://www.overleaf.com" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/Freelance.png"
+		},
+		{
+			"date": "Apr 2023 - Jan 2024 ",
+			"type": "Public Speaking Teacher",
+			"title": "Speak With Eve",
+			"description": "Guided over 20 students in improving English, focusing on tech topics like AI and online security, to prepare them for technical interviews and professional presentations.",
+			"tags":
+			[
+				{ "name": "VooV", "url": "https://voovmeeting.com/" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/SwE.png"
+		},
+		{
+			"date": "Aug 2020 - Nov 2021",
+			"type": "Information Analyst",
+			"title": "Zo-Lar Prest",
+			"description": "Conducted data audits, automated key reporting processes, and improved data quality by ~120% through thorough analysis, refinement and anomaly removal. Enhanced reporting efficiency and reliability.",
+			"tags":
+			[
+				{ "name": "R", "url": "https://www.r-project.org" },
+				{ "name": "SQL", "url": "https://www.w3schools.com/sql/sql_intro.asp" },
+				{ "name": "Power BI", "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi" },
+				{ "name": "OpenRefine", "url": "https://openrefine.org" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/zolar.png"
+		}
+	]
+}
