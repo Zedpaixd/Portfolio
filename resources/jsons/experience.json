@@ -2,7 +2,38 @@
 	"experience":
 	[
 		{
-			"date": "Jan-May 2022 & Mar 2023 - Now",
+			"date": "March 2025 - Now",
+			"type": "Thesis Intern",
+			"title": "Huawei R&D",
+			"description": "Currently in the process of writing my thesis in the Huawei Security HSSL Lab.",
+			"tags":
+			[
+				{ "name": "C", "url": "https://installc.org/" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/huawei.png"
+		},
+		{
+			"date": "Oct - Dec 2024",
+			"type": "Teaching Assitant",
+			"title": "Aalto University",
+			"description": "Designed and tailored network‑focused exercises to simulate real‑world professional scenarios. Provided guidance and clarity on complex concepts and assignments for students & delivered captioned content for lectures.",
+			"tags":
+			[
+				{ "name": "Docker", "url": "https://www.docker.com/" },
+				{ "name": "Kubernetes", "url": "https://kubernetes.io/" },
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Wireshark", "url": "https://www.wireshark.org/" },
+				{ "name": "Ubuntu", "url": "https://ubuntu.com/" },
+				{ "name": "Panopto", "url": "https://www.panopto.com/"}
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/Aalto.jpg"
+		},
+		{
+			"date": "Jan-May 2022 & Mar 2023 - Nov 2024",
 			"type": "System Programmer",
 			"title": "Zo-Lar Prest",
 			"description": "Developed Python and Bash scripts to automate tasks, enhanced system efficiency by over 200%, conducted bi-weekly system checks and implemented various security protocols.",
