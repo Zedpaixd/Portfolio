@@ -2,13 +2,29 @@
 	"experience":
 	[
 		{
-			"date": "March 2025 - Now",
-			"type": "Thesis Intern",
+			"date": "September 2025 - Now",
+			"type": "Security and Malware Consultant",
 			"title": "Huawei",
-			"description": "Currently in the process of writing my thesis in the Huawei Security HSSL Lab.",
+			"description": "Actively consulting on security and malware issues for Huawei. Received one of the FiRC President's Awards.",
 			"tags":
 			[
 				{ "name": "C", "url": "https://installc.org/" }
+			],
+			"link": "none",
+			"video": "none",
+			"image": "resources/images/workexp/Huawei.png"
+		},
+		{
+			"date": "March 2025 - August 2025",
+			"type": "Thesis Intern",
+			"title": "Huawei",
+			"description": "Refined a code randomization technique, creating an encrypted, TEE-based progressive AEAD system. This operates under a zero-trust model, incorporating a preloader that adds a maximum of 200ms overhead, yet yields a performance increase exceeding 1000% compared to the original model. Additionally, restructured OP-TEE to meet specific internal operational requirements",
+			"tags":
+			[
+				{ "name": "C", "url": "https://installc.org/" },
+				{ "name": "OP-TEE", "url": "https://optee.readthedocs.io/en/latest/general/about.html" },
+				{ "name": "Cryptography", "url": "https://en.wikipedia.org/wiki/Cryptography" },
+				{ "name": "ARM64", "url": "https://en.wikipedia.org/wiki/AArch64" }
 			],
 			"link": "none",
 			"video": "none",
