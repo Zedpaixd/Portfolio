@@ -2,13 +2,15 @@
 	"experience":
 	[
 		{
-			"date": "September 2025 - Now",
+			"date": "September 2025 - Present",
 			"type": "Security and Malware Consultant",
 			"title": "Huawei",
-			"description": "Actively consulting on security and malware issues for Huawei. Received one of the FiRC President's Awards.",
+			"description": "Working across platform security and malware research, with a focus on low-level systems, threat analysis, operating-system security, and defensive mechanisms. Recognized with a FiRC President's Award for contributions to security research.",
 			"tags":
 			[
-				{ "name": "C", "url": "https://installc.org/" }
+				{ "name": "Platform Security", "url": "#" },
+				{ "name": "Malware Analysis", "url": "#" },
+				{ "name": "Threat Intelligence", "url": "#" }
 			],
 			"link": "none",
 			"video": "none",
@@ -18,13 +20,12 @@
 			"date": "March 2025 - August 2025",
 			"type": "Thesis Intern",
 			"title": "Huawei",
-			"description": "Refined a code randomization technique, creating an encrypted, TEE-based progressive AEAD system. This operates under a zero-trust model, incorporating a preloader that adds a maximum of 200ms overhead, yet yields a performance increase exceeding 1000% compared to the original model. Additionally, restructured OP-TEE to meet specific internal operational requirements",
+			"description": "Developed Preshuf, a secure architecture for moving fine-grained binary randomization offline while protecting generated layouts through trusted execution and authenticated encryption. Implemented and evaluated the design on ARM64 using OP-TEE.",
 			"tags":
 			[
-				{ "name": "C", "url": "https://installc.org/" },
-				{ "name": "OP-TEE", "url": "https://optee.readthedocs.io/en/latest/general/about.html" },
-				{ "name": "Cryptography", "url": "https://en.wikipedia.org/wiki/Cryptography" },
-				{ "name": "ARM64", "url": "https://en.wikipedia.org/wiki/AArch64" }
+				{ "name": "Binary Security", "url": "#" },
+				{ "name": "Trusted Execution", "url": "#" },
+				{ "name": "ARM64", "url": "#" }
 			],
 			"link": "none",
 			"video": "none",
@@ -32,17 +33,16 @@
 		},
 		{
 			"date": "Oct - Dec 2024",
-			"type": "Teaching Assitant",
+			"type": "Teaching Assistant",
 			"title": "Aalto University",
-			"description": "Designed and tailored network‑focused exercises to simulate real‑world professional scenarios. Provided guidance and clarity on complex concepts and assignments for students & delivered captioned content for lectures.",
+			"description": "Developed and supported hands-on exercises covering networking, containerized systems, and security concepts. Helped students translate theoretical material into practical troubleshooting and system-level analysis.",
 			"tags":
 			[
 				{ "name": "Docker", "url": "https://www.docker.com/" },
 				{ "name": "Kubernetes", "url": "https://kubernetes.io/" },
 				{ "name": "Python", "url": "https://www.python.org/" },
 				{ "name": "Wireshark", "url": "https://www.wireshark.org/" },
-				{ "name": "Ubuntu", "url": "https://ubuntu.com/" },
-				{ "name": "Panopto", "url": "https://www.panopto.com/"}
+				{ "name": "Ubuntu", "url": "https://ubuntu.com/" }
 			],
 			"link": "none",
 			"video": "none",
@@ -52,7 +52,7 @@
 			"date": "Jan-May 2022 & Mar 2023 - Nov 2024",
 			"type": "System Programmer",
 			"title": "Zo-Lar Prest",
-			"description": "Developed Python and Bash scripts to automate tasks, enhanced system efficiency by over 200%, conducted bi-weekly system checks and implemented various security protocols.",
+			"description": "Automated Linux administration and security workflows using Python and Bash, including system monitoring, recurring checks, and operational hardening. Built tooling to reduce repetitive work and improve system reliability. Increased efficiency by over 200%",
 			"tags":
 			[
 				{ "name": "C", "url": "https://installc.org/" },
@@ -67,9 +67,9 @@
 		},
 		{
 			"date": "Oct 2023 - June 2024",
-			"type": "Teaching Assitant",
+			"type": "Teaching Assistant",
 			"title": "West University of Timisoara",
-			"description": "Taught advanced OOP and Java concepts, along with Data Structures and Algorithmics. Led labs for large groups, graded assignments, and designed tailored learning materials.",
+			"description": "Led practical classes in object-oriented programming, algorithms, and data structures. Guided students through technical assignments and designed supporting material for large undergraduate groups.",
 			"tags":
 			[
 				{ "name": "Java", "url": "https://www.java.com/en/" },
@@ -107,7 +107,7 @@
 			"date": "Apr 2023 - Jan 2024 ",
 			"type": "Public Speaking Teacher",
 			"title": "Speak With Eve",
-			"description": "Guided over 20 students in improving English, focusing on tech topics like AI and online security, to prepare them for technical interviews and professional presentations.",
+			"description": "Coached more than 20 students in technical communication, interview preparation, and professional presentations, with a focus on topics including technology, AI, and cybersecurity.",
 			"tags":
 			[
 				{ "name": "VooV", "url": "https://voovmeeting.com/" }
@@ -120,7 +120,7 @@
 			"date": "Aug 2020 - Nov 2021",
 			"type": "Information Analyst",
 			"title": "Zo-Lar Prest",
-			"description": "Conducted data audits, automated key reporting processes, and improved data quality by ~120% through thorough analysis, refinement and anomaly removal. Enhanced reporting efficiency and reliability.",
+			"description": "Built data-cleaning and reporting workflows using R and SQL, performing audits, anomaly detection, validation, and automated analysis across operational datasets.",
 			"tags":
 			[
 				{ "name": "R", "url": "https://www.r-project.org" },
