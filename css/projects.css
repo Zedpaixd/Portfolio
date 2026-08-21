@@ -21,54 +21,6 @@
 	transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out, filter 0.3s ease;
 }
 
-#projects_section .sort_choices
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	width: 100%;
-	margin-bottom: 70px;
-	gap: 20px;
-}
-
-#projects_section .sort_choices .label
-{
-	color: var(--white);
-	font-family: raleway_semi_bold;
-	font-size: 17px;
-}
-
-#projects_section .sort_choices .choice
-{
-	color: var(--light_blue);
-	font-family: raleway_semi_bold;
-	font-size: 15px;
-	cursor: pointer;
-	border-radius: 100px;
-	padding: 9px 18px 9px 18px;
-	border: 2px solid var(--light_blue);
-	transition: background-color 0.2s ease-in-out;
-}
-
-#projects_section .sort_choices .choice:hover
-{
-	background-color: var(--fade_light_blue);
-}
-
-#projects_section .sort_choices .choice.selected
-{
-	color: var(--dark_purple);
-	background-color: var(--light_blue);
-	cursor: default;
-	pointer-events: none;
-}
-
-#projects_section .sort_choices .choice.selected:hover
-{
-	background-color: var(--light_blue);
-}
-
 #projects_section .projects_content
 {
 	display: flex;
@@ -178,6 +130,27 @@
 	align-items: flex-end;
 	margin-left: -100px;
 	margin-right: 0px;
+}
+
+#projects_section .project_text .tags span
+{
+	font-family: raleway_semi_bold;
+	font-size: 16px;
+	color: var(--light_blue);
+	opacity: 1;
+	padding: 3px 6px;
+	white-space: nowrap;
+}
+
+#projects_section .project_view .project_media
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(clamp(400px, 40vw, 600px) * 1.05);
+	overflow: hidden;
+	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
+	border-radius: 15px;
 }
 
 #projects_section .project_text .type

@@ -12,23 +12,27 @@
 #contact_section .section_title
 {
 	color: var(--black_title);
-	margin-bottom: 70px;
+	margin-bottom: 25px;
+}
+
+#contact_section .contact_intro
+{
+	max-width: 600px;
+	margin: 0 auto 50px auto;
+	font-family: calibre_regular;
+	font-size: 21px;
+	line-height: 1.5;
+	text-align: center;
+	color: var(--black_text);
 }
 
 #contact_section .contact_content
 {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-}
-
-@media screen and (max-width: 780px)
-{
-	#contact_section .contact_content
-	{
-		flex-direction: column;
-	}
 }
 
 #contact_section .social_line
@@ -44,54 +48,83 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 25px 10px 25px 25px;
-	border-radius: 20px;
-	background-color: white;
-	box-shadow: 0px 0px 10px rgba(28, 28, 51, 0.2);
-	gap: 15px;
+	padding: 18px;
+	border: 1px solid rgba(28, 28, 51, 0.1);
+	border-radius: 12px;
+	background-color: var(--white);
+	box-shadow: 0px 2px 10px rgba(28, 28, 51, 0.08);
+	gap: 0;
 	text-decoration: none;
-	transition: padding 0.5s ease-in-out;
+	transition:
+		padding 0.35s ease,
+		box-shadow 0.25s ease,
+		transform 0.25s ease,
+		border-color 0.25s ease;
 }
 
 #contact_section .social_link:hover
 {
-	padding-right: 25px;
+	padding-right: 24px;
+	border-color: rgba(28, 28, 51, 0.2);
+	box-shadow: 0px 5px 16px rgba(28, 28, 51, 0.14);
+	transform: translateY(-2px);
 }
 
 #contact_section .social_link img
 {
-	width: 50px;
+	width: 32px;
+	height: 32px;
+	flex-shrink: 0;
 }
 
-#contact_section .social_link .social_text
+#contact_section .social_text
 {
 	overflow: hidden;
-	width: 0px;
-	transition: width 0.5s ease-in-out;
+	width: 0;
+	opacity: 0;
+	margin-left: 0;
+	transition:
+		width 0.35s ease,
+		opacity 0.25s ease,
+		margin-left 0.35s ease;
 }
 
 #contact_section .social_link:hover .social_text
 {
 	width: var(--size);
+	opacity: 1;
+	margin-left: 12px;
 }
 
-#contact_section .social_link .social_text span
+#contact_section .social_text span
 {
 	font-family: proxima_nova_semi_bold;
-	font-size: 20px;
+	font-size: 17px;
 	color: var(--black_text);
 	white-space: nowrap;
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
-	#contact_section .social_link:hover
+	#contact_section .contact_intro
 	{
-		padding-right: 10px;
+		font-size: 19px;
+		margin-bottom: 35px;
 	}
 
-	#contact_section .social_link:hover .social_text
+	#contact_section .social_line
 	{
-		width: 0px;
+		gap: 14px;
+	}
+
+	#contact_section .social_link
+	{
+		padding: 16px;
+	}
+
+	#contact_section .social_link img
+	{
+		width: 30px;
+		height: 30px;
 	}
 }

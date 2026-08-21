@@ -37,6 +37,7 @@ function home_in_animations()
 function home_events()
 {
 	let particles_paused = false;
+
 	particlesJS.load('particles', 'resources/jsons/particles.json');
 
 	window.addEventListener('scroll', (e) =>
@@ -57,4 +58,66 @@ function home_events()
 
 	let rect = document.querySelector('#home_section .content').getBoundingClientRect();
 	document.querySelector('#home_section').style.minHeight = (rect.height + 90) + 'px';
+
+	name_glitch_events();
+}
+
+
+function name_glitch_events()
+{
+	const name = document.querySelector('#glitch_name');
+
+	if (!name)
+		return;
+
+	const real_name = 'Armand Alexandru Balint';
+	const alias = 'Zedpaixd';
+
+	function set_text(text)
+	{
+		name.textContent = text;
+		name.dataset.text = text;
+	}
+
+	function trigger()
+	{
+		name.classList.add('active');
+
+		setTimeout(() =>
+		{
+			set_text(alias);
+		}, 170);
+
+		setTimeout(() =>
+		{
+			set_text(real_name);
+		}, 290);
+
+		setTimeout(() =>
+		{
+			set_text(alias);
+		}, 350);
+
+		setTimeout(() =>
+		{
+			set_text(real_name);
+		}, 830);
+
+		setTimeout(() =>
+		{
+			name.classList.remove('active');
+			set_text(real_name);
+
+			schedule();
+		}, 950);
+	}
+
+	function schedule()
+	{
+		const delay = 7000 + Math.random() * 9000;
+
+		setTimeout(trigger, delay);
+	}
+
+	setTimeout(trigger, 2500);
 }

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Armand Portfolio</title>
+		<title>Armand Alexandru Balint | Platform Security Engineer</title>
+		<meta name="description" content="Platform security engineer and malware researcher working on low-level systems, malware analysis, trusted execution, and defensive security.">
 		<link rel="shortcut icon" type="image/png" href="resources/images/Favicon.png"/>
 
 		<meta charset="utf-8"/>
@@ -45,9 +46,9 @@
 					<div class="menu">
 						<ol>
 							<li class="home in_animation"><a class="not_button" href="#home">Home</a></li>
-							<li class="about in_animation"><a class="not_button" href="#about">About</a></li>
-							<li class="projects in_animation"><a class="not_button" href="#projects">Projects</a></li>
-							<li class="experience in_animation"><a class="not_button" href="#experience">Work Experience</a></li>
+							<li class="about"><a class="not_button" href="#about">About</a></li>
+							<li class="projects"><a class="not_button" href="#projects">Selected Work</a></li>
+							<li class="experience"><a class="not_button" href="#experience">Experience</a></li>
 							<li class="contact in_animation">
 								<a class="button" href="#contact">
 									<p>Contact</p>
@@ -77,8 +78,8 @@
 				<ol>
 					<li class="home"><a class="not_button" href="#home">Home</a></li>
 					<li class="about"><a class="not_button" href="#about">About</a></li>
-					<li class="projects"><a class="not_button" href="#projects">Projects</a></li>
-					<li class="experience"><a class="not_button" href="#experience">Work Experience</a></li>
+					<li class="projects"><a class="not_button" href="#projects">Selected Work</a></li>
+					<li class="experience"><a class="not_button" href="#experience">Experience</a></li>
 					<li class="contact">
 						<a class="button" href="#contact">
 							<p>Contact</p>
@@ -99,7 +100,12 @@
 				<div id="particles"></div>
 				<div class="content">
 					<span class="hi in_animation">Platform Security Engineer & Malware Researcher</span>
-					<span class="name in_animation">Armand Alexandru Balint</span>
+					<!-- <span class="name in_animation">Armand Alexandru Balint</span> -->
+					 <span class="name in_animation">
+						<span id="glitch_name" class="glitch_text" data-text="Armand Alexandru Balint">
+							Armand Alexandru Balint
+						</span>
+					</span>
 					<p class="bio in_animation">
 						I work on low-level platform security, malware analysis, and secure systems, with a focus on threat intelligence, operating systems, trusted execution, and practical defensive mechanisms.
 					</p>
@@ -123,7 +129,7 @@
 						<span class="section_title">About</span>
 						<div class="about_content">
 							<p class="p_1">
-								I'm Armand, a security engineer and researcher based in Helsinki. My work focuses on platform security, malware analysis, operating-system security, trusted execution environments, and binary protection.
+								I'm Armand, a security engineer and researcher based in Helsinki with 5 years of technical experience. My work focuses on platform security, malware analysis, operating-system security, trusted execution environments, and binary protection.
 								<br/><br/>
 								I currently work at Huawei, where I contribute to security and malware research across low-level systems. My background combines practical security engineering with academic research, including work on ARM64, Linux, trusted execution, and fine-grained code randomization.
 								<br/><br/>
@@ -150,29 +156,24 @@
 				<div class="section_end experience_end"></div>
 
 
-				<a id="about"></a>
-				<section class="section" id="about_section">
-					<div class="content">
-						<span class="section_title"></span>
-						<div class="about_content">
-						</div>
-					</div>
-				</section>
-				<div class="section_end about_end"></div>
-
-
-
 				<link rel="stylesheet" type="text/css" href="css/projects.css"/>
 				<link rel="stylesheet" type="text/css" href="css/other_projects.css"/>
 
 				<a id="projects"></a>
 				<section class="section" id="projects_section">
 					<div class="content leaning">
-						<span class="section_title">... aaand my projects</span>
-						<p class="p_1" style="font-style: italic">-- It's worth noting that some of these projects do not have a public github repository, however, upon request I gladly share the source code. --</p>
-						<div class="projects_content">
+						<span class="section_title">Selected Work</span>
+
+						<div class="projects_content"></div>
+
+						<div class="project_archive">
+							<div class="archive_header">
+								<span class="archive_title">Project Archive</span>
+								<p>Earlier projects, experiments, coursework, and side projects.</p>
+							</div>
+
+							<div class="other_projects_content"></div>
 						</div>
-						<div class="other_projects_content"></div>
 					</div>
 				</section>
 				<div class="section_end projects_end"></div>
@@ -181,64 +182,42 @@
 
 
 				<link rel="stylesheet" type="text/css" href="css/contact.css"/>
-
 				<a id="contact"></a>
 				<section class="section" id="contact_section">
 					<div class="content leaning">
-						<span class="section_title">Contact Me</span>
+						<span class="section_title">Contact</span>
+
+						<p class="contact_intro">
+							Interested in security research, platform security, collaboration, or perhaps want to have a chat?
+						</p>
+
 						<div class="contact_content">
 							<div class="social_line">
-								<a class="social_link" href="https://www.linkedin.com/in/armand-balint/" target="_blank" style="--size: 150.13px;">
-									<img src="resources/svgs/contact/Linkedin.svg" alt="linkedin" width="50px" height="50px"/>
+								<a class="social_link" href="https://www.linkedin.com/in/armand-balint/" target="_blank" style="--size: 125px;">
+									<img src="resources/svgs/contact/Linkedin.svg" alt="LinkedIn" width="50px" height="50px"/>
 									<div class="social_text">
 										<span>in/armand-balint</span>
 									</div>
 								</a>
-								<a class="social_link" href="https://instagram.com/armandba_" target="_blank"  style="--size: 100px;">
-									<img src="resources/svgs/contact/Instagram.svg" alt="instagram" width="50px" height="50px"/>
+
+								<a class="social_link" href="https://github.com/Zedpaixd" target="_blank" style="--size: 75px;">
+									<img src="resources/svgs/contact/GitHub.svg" alt="GitHub" width="50px" height="50px"/>
 									<div class="social_text">
-										<span>armandba_</span>
-									</div>
-								</a>
-							</div>
-							<div class="social_line">
-								<a class="social_link" href="https://github.com/Zedpaixd" target="_blank" style="--size: 90.65px;">
-									<img src="resources/svgs/contact/GitHub.svg" alt="github" width="50px" height="50px"/>
-									<div class="social_text"> 
 										<span>Zedpaixd</span>
 									</div>
 								</a>
-								<a class="social_link" href="#" target="_blank" style="--size: 95px;">
-									<img src="resources/svgs/contact/Discord.svg" alt="discord" width="50px" height="50px"/>
+							</div>
+
+							<div class="social_line">
+								<a class="social_link" href="mailto:writetoarmand@gmail.com" style="--size: 205px;">
+									<img src="resources/svgs/contact/Mail.svg" alt="Email" width="50px" height="50px"/>
 									<div class="social_text">
-										<span>armandba</span>
+										<span>writetoarmand@gmail.com</span>
 									</div>
 								</a>
-							</div>
-							<div class="social_line">
-								<div class="social_link" style="--size: 237px;">
-									<a href="mailto: balintarmand0@gmail.com" target="_blank">
-										<img src="resources/svgs/contact/Mail.svg" alt="mail" width="50px" height="50px"/>
-									</a>
-									<div class="social_text">
-										<span>balintarmand0@gmail.com</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-						<div class="contact_content">
-							<div class="social_line">
-								<a class="social_link" href="Academic CV.pdf" download="Academic CV.pdf" style="--size: 128px;">
-									<img src="resources/svgs/contact/AcademicCV.svg" alt="discord" width="50px" height="50px"/>
-									<div class="social_text">
-										<span>Academic CV</span>
-									</div>
-								</a>
-							</div>
-							<div class="social_line">
-								<a class="social_link" href="Professional CV.pdf" download="Professional CV.pdf" style="--size: 142px;">
-									<img src="resources/svgs/contact/ProfessionalCV.svg" alt="mail" width="50px" height="50px"/>
+
+								<a class="social_link" href="Professional CV.pdf" download="Armand Balint CV.pdf" style="--size: 130px;">
+									<img src="resources/svgs/contact/ProfessionalCV.svg" alt="Professional CV" width="50px" height="50px"/>
 									<div class="social_text">
 										<span>Professional CV</span>
 									</div>
@@ -246,7 +225,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
 				</section>
 			</main>
 		</div>

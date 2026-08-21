@@ -2,10 +2,54 @@
 	"projects":
 	[
 		{
+			"date": 2026,
+			"type": "Linux Security",
+			"title": "STALK",
+			"description": "A Linux security project exploring behavioral detection and runtime enforcement using eBPF, Linux Security Modules, and seccomp. The project focuses on observing process behavior and using low-level operating-system mechanisms to identify and constrain suspicious activity.",
+			"tags":
+			[
+				{ "name": "eBPF", "url": "https://ebpf.io/" },
+				{ "name": "Linux Security", "url": "https://www.kernel.org/" },
+				{ "name": "Behavioral Detection", "url": "#" }
+			],
+			"links":
+			[
+				"#",
+				"none",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/STALK.png",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["Security"]
+		},
+		{
+			"date": 2025,
+			"type": "Security Research",
+			"title": "Preshuf",
+			"description": "A secure architecture for moving fine-grained binary randomization offline while protecting generated layouts through trusted execution and authenticated encryption. Implemented and evaluated on ARM64 with OP-TEE to substantially reduce runtime initialization overhead.",
+			"tags":
+			[
+				{ "name": "Binary Security", "url": "#" },
+				{ "name": "ARM64", "url": "https://developer.arm.com/" },
+				{ "name": "OP-TEE", "url": "https://optee.readthedocs.io/en/latest/" }
+			],
+			"links":
+			[
+				"#",
+				"none",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/PreShuf.png",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["Security"]
+		},
+		{
 			"date": 2024,
 			"type": "November -> April",
-			"title": "Galaxy Simulation",
-			"description": "Completely customizable simulation of the galaxy done via Compute Shaders to put less stress on the CPU. Project was inspired by an ex-classmate's work.",
+			"title": "Compute-Shader Galaxy Simulation",
+			"description": "A real-time galaxy simulation built around GPU compute shaders, designed to offload large-scale particle computation from the CPU and support highly configurable stellar systems.",
 			"tags":
 			[
 				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },

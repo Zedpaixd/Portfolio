@@ -67,3 +67,146 @@
 {
 	margin-top: 50px;
 }
+
+#home_section .glitch_text
+{
+	position: relative;
+	display: inline-block;
+}
+
+#home_section .glitch_text::before,
+#home_section .glitch_text::after
+{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	pointer-events: none;
+}
+
+#home_section .glitch_text.active
+{
+	animation: glitch_body 80ms steps(2, end) infinite;
+}
+
+#home_section .glitch_text.active::before
+{
+	opacity: 1;
+	color: #00eaff;
+	animation: glitch_top 90ms steps(2, end) infinite;
+}
+
+#home_section .glitch_text.active::after
+{
+	opacity: 1;
+	color: #ff245f;
+	animation: glitch_bottom 70ms steps(2, end) infinite;
+}
+
+@keyframes glitch_body
+{
+	0%
+	{
+		transform: translate(0, 0) skew(0deg);
+		text-shadow: none;
+	}
+
+	20%
+	{
+		transform: translate(-4px, 1px) skew(3deg);
+		text-shadow: 5px 0 #ff245f, -5px 0 #00eaff;
+	}
+
+	40%
+	{
+		transform: translate(6px, -2px) skew(-4deg);
+		text-shadow: -7px 0 #ff245f, 4px 0 #00eaff;
+	}
+
+	60%
+	{
+		transform: translate(-7px, 2px) skew(5deg);
+		text-shadow: 8px 0 #00eaff, -4px 0 #ff245f;
+	}
+
+	80%
+	{
+		transform: translate(4px, -1px) skew(-3deg);
+		text-shadow: -5px 0 #00eaff, 6px 0 #ff245f;
+	}
+
+	100%
+	{
+		transform: translate(0, 0);
+		text-shadow: none;
+	}
+}
+
+@keyframes glitch_top
+{
+	0%
+	{
+		clip-path: inset(0 0 70% 0);
+		transform: translate(-5px, -2px);
+	}
+
+	25%
+	{
+		clip-path: inset(15% 0 55% 0);
+		transform: translate(7px, 1px);
+	}
+
+	50%
+	{
+		clip-path: inset(35% 0 40% 0);
+		transform: translate(-8px, -1px);
+	}
+
+	75%
+	{
+		clip-path: inset(5% 0 80% 0);
+		transform: translate(6px, 2px);
+	}
+
+	100%
+	{
+		clip-path: inset(55% 0 20% 0);
+		transform: translate(-4px, 0);
+	}
+}
+
+@keyframes glitch_bottom
+{
+	0%
+	{
+		clip-path: inset(65% 0 0 0);
+		transform: translate(6px, 2px);
+	}
+
+	25%
+	{
+		clip-path: inset(45% 0 30% 0);
+		transform: translate(-7px, -1px);
+	}
+
+	50%
+	{
+		clip-path: inset(75% 0 5% 0);
+		transform: translate(8px, 1px);
+	}
+
+	75%
+	{
+		clip-path: inset(50% 0 15% 0);
+		transform: translate(-6px, 2px);
+	}
+
+	100%
+	{
+		clip-path: inset(80% 0 0 0);
+		transform: translate(5px, -1px);
+	}
+}
